@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{int n,m;
+// Try out your code here
+  cin>>m>>n;
+ cout<<"Enter n"<<endl<<"Enter m"<<endl;
+cout<<"The multiplication table of "<<m<<" is"<<endl;
+
+ for(int i=1;i<=n;i++)
+ {
+   cout<<i<<"*"<<m<<"="<<i*m<<endl;
+ }
+    return 0;
+}
