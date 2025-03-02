@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+int n;
+ int digit=0;
+  cin>>n;
+  int num=n;
+  while(n>0)
+  {
+    n/=10;
+    digit++;
+}
+  cout<<"The number of digits in "<<num<<" is "<<digit;
+  return 0;
+}
